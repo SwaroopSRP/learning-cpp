@@ -1,0 +1,3 @@
+/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug/CMakeFiles/DSA.dir
+/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug/CMakeFiles/rebuild_cache.dir

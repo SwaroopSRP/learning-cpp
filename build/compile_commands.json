@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/srp31/Documents/CLionProjects/DSA/build",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fmodules-ts -fmodule-mapper=CMakeFiles/DSA.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/DSA.dir/main.cpp.o -c /home/srp31/Documents/CLionProjects/DSA/main.cpp",
+  "file": "/home/srp31/Documents/CLionProjects/DSA/main.cpp",
+  "output": "CMakeFiles/DSA.dir/main.cpp.o"
+},
+{
+  "directory": "/home/srp31/Documents/CLionProjects/DSA/build",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fmodules-ts -fmodule-mapper=CMakeFiles/DSA.dir/coords.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/DSA.dir/coords.cpp.o -c /home/srp31/Documents/CLionProjects/DSA/coords.cpp",
+  "file": "/home/srp31/Documents/CLionProjects/DSA/coords.cpp",
+  "output": "CMakeFiles/DSA.dir/coords.cpp.o"
+}
+]

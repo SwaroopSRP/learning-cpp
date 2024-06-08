@@ -1,0 +1,3 @@
+/home/srp31/Documents/CLionProjects/DSA/build/CMakeFiles/DSA.dir
+/home/srp31/Documents/CLionProjects/DSA/build/CMakeFiles/edit_cache.dir
+/home/srp31/Documents/CLionProjects/DSA/build/CMakeFiles/rebuild_cache.dir

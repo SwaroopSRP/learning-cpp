@@ -1,0 +1,19 @@
+# ninja log v6
+93	421	1717819273281357057	CMakeFiles/DSA.dir/main.cpp.o	7c734100fbfa6bfd
+93	495	1717819273281357057	CMakeFiles/DSA.dir/coords.cpp.o	99ba879a880c2c5e
+1	80	1717773368625732773	CMakeFiles/DSA.dir/coords.cpp.o.ddi	829a1ef97e71154f
+90	93	1717819273278023672	CMakeFiles/DSA.dir/CXX.dd	49fa6d61a9bd3fb5
+90	93	1717819273278023672	CMakeFiles/DSA.dir/main.cpp.o.modmap	49fa6d61a9bd3fb5
+4	90	1717819273191355637	CMakeFiles/DSA.dir/main.cpp.o.ddi	d88cc26973ab3b51
+90	93	1717819273278023672	CMakeFiles/DSA.dir/coords.cpp.o.modmap	49fa6d61a9bd3fb5
+1	16	1717827877578788731	build.ninja	f5f2ab9bd5bd5524
+495	538	1717819273681363369	DSA	35832ac4c6538d35
+1	60	1717827881575362419	CMakeFiles/DSA.dir/main.cpp.o.ddi	4fd36c5a4964bae1
+1	82	1717827881575362419	CMakeFiles/DSA.dir/coords.cpp.o.ddi	5246fea80616e1ee
+83	86	1717827881655360566	CMakeFiles/DSA.dir/CXX.dd	49fa6d61a9bd3fb5
+83	86	1717827881655360566	/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug/CMakeFiles/DSA.dir/CXXModules.json	49fa6d61a9bd3fb5
+83	86	1717827881655360566	CMakeFiles/DSA.dir/main.cpp.o.modmap	49fa6d61a9bd3fb5
+83	86	1717827881655360566	CMakeFiles/DSA.dir/coords.cpp.o.modmap	49fa6d61a9bd3fb5
+86	449	1717827881658693822	CMakeFiles/DSA.dir/main.cpp.o	ee7c0655db56f031
+86	520	1717827881658693822	CMakeFiles/DSA.dir/coords.cpp.o	72f093103d267f13
+520	569	1717827882092017123	DSA	35832ac4c6538d35

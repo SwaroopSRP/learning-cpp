@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug",
+	"dir-cur-src" : "/home/srp31/Documents/CLionProjects/learning-cpp-dsa",
+	"dir-top-bld" : "/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug",
+	"dir-top-src" : "/home/srp31/Documents/CLionProjects/learning-cpp-dsa",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/srp31/Documents/CLionProjects/learning-cpp-dsa/cmake-build-debug/CMakeFiles/DSA.dir"
+}

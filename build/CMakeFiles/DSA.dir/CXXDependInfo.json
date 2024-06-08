@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/srp31/Documents/CLionProjects/DSA/build",
+	"dir-cur-src" : "/home/srp31/Documents/CLionProjects/DSA",
+	"dir-top-bld" : "/home/srp31/Documents/CLionProjects/DSA/build",
+	"dir-top-src" : "/home/srp31/Documents/CLionProjects/DSA",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/srp31/Documents/CLionProjects/DSA/build/CMakeFiles/DSA.dir"
+}
