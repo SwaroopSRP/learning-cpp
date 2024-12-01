@@ -9,71 +9,73 @@ using namespace std;
 template <typename dtype>
 class Stack {
     dtype *arr;
-    int top;
-public:
     int size;
-
-    Stack() { // Default Constructor, equiv to: // Stack() : arr(nullptr), top(-1), size(0) {}
-        arr = nullptr;
-        top = -1;
-        size = 0;
-    }
-
-    explicit Stack(int size) {
-        if (size <= 0 || size > INT_MAX) {
-            cout << "Invalid stack size!" << endl;
-            return;
+    int top;
+    public:
+        Stack() { // Default Constructor, equiv to: // Stack() : arr(nullptr), top(-1), size(0) {}
+            arr = nullptr;
+            top = -1;
+            size = 0;
         }
-        this->size = size;
-        arr = new dtype[size]; // new is used for dyn-memalloc, returning address of loc
-        top = -1;
-    }
-
-    void push(dtype elem) {
-        if (top == size - 1) {
-            cout << "Stack Overflow!" << endl;
-            return;
+    
+        explicit Stack(int size) {
+            if (size <= 0 || size > INT_MAX) {
+                cout << "Invalid stack size!" << endl;
+                return;
+            }
+            this->size = size;
+            arr = new dtype[size]; // new is used for dyn-memalloc, returning address of loc
+            top = -1;
         }
-        arr[++top] = elem;
-    }
-
-    dtype pop() {
-        if (top == -1) {
-            cout << "Stack Underflow!" << endl;
-            return dtype{};
+    
+        void push(dtype elem) {
+            if (top == size - 1) {
+                cout << "Stack Overflow!" << endl;
+                return;
+            }
+            arr[++top] = elem;
         }
-        return arr[top--];
-    }
-
-    dtype peek() const {
-        if (top == -1) {
-            cout << "Stack is empty!" << endl;
-            return dtype{};
+    
+        dtype pop() {
+            if (top == -1) {
+                cout << "Stack Underflow!" << endl;
+                return dtype{};
+            }
+            return arr[top--];
         }
-        return arr[top];
-    }
-
-    [[nodiscard]] bool isEmpty() const { // nodisc allows warning for not catching return on declaration
-        return top == -1;
-    }
-
-    [[nodiscard]] bool isFull() const{
-        return top == size -1;
-    }
-
-    void display() {
-        if (top == -1) {
-            cout << "Stack is empty!" << endl;
-            return;
+    
+        dtype peek() const {
+            if (top == -1) {
+                cout << "Stack is empty!" << endl;
+                return dtype{};
+            }
+            return arr[top];
         }
-        cout << "Stack Elements: ";
-        for (int i = 0; i <= top; i++) {
-            cout << arr[i] << " ";
+    
+        [[nodiscard]] bool isEmpty() const { // nodisc allows warning for not catching return on declaration
+            return top == -1;
         }
-        cout << endl;
-    }
+    
+        [[nodiscard]] bool isFull() const{
+            return top == size -1;
+        }
 
-    ~Stack() {
-        delete[] arr;
-    }
+        int size() const {
+            return size;
+    
+        void display() {
+            if (top == -1) {
+                cout << "Stack is empty!" << endl;
+                return;
+            }
+            cout << "Stack Elements: ";
+            for (int i = 0; i <= top; i++) {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
+        }
+    
+        ~Stack() {
+            delete[] arr;
+        }
 };
