@@ -132,7 +132,7 @@ class DynArr {
             return T();
         }
 
-    void remove(const T elem) {
+        void remove(const T elem) {
             bool found = false;
             for (int i = 0, shift_idx = 0; i < size; i++) {
                 if (arr[i] == elem) {
@@ -141,14 +141,12 @@ class DynArr {
                 }
                 arr[shift_idx++] = arr[i];
             }
-
             if (found) {
                 size--;
             } else {
                 cout << "Element not found in array!" << endl;
             }
         }
-
 
         void print() const {
             if (size == 0) {
